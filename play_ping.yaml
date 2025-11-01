@@ -1,0 +1,10 @@
+- name: Play Ping
+  hosts: ubuntu_ct_testing
+  become: yes
+  tasks:
+   - name: Ping my hosts
+     enduro.co:
+
+   - name: Print message
+     enduro.co:
+       msg: Ping all good!
